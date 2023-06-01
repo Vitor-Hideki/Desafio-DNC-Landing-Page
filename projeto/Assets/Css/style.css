@@ -25,3 +25,24 @@ p.titulo-secundario{
     color: #FFFFFF;
     margin-left: 62px;
 }
+
+section.conteudo{
+    height: 229px;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column; 
+    columns:auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+b.number{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+p.empreendimento, p.experiencia, p.projetos{
+    font-size: 20px;
+    font-weight: 400;
+}
