@@ -45,6 +45,7 @@ b.number{
 p.empreendimento, p.experiencia, p.projetos{
     font-size: 20px;
     font-weight: 400;
+    font-family: 'Inter', sans-serif;
 }
 
 section.conteudo-secundario{
@@ -57,6 +58,7 @@ section.conteudo-secundario{
 div.texto-conteudo{
     width: 735px;
     padding: 77px;
+    font-family: 'Inter', sans-serif;
 }
 
 h1.titulo-secundario{
@@ -69,4 +71,47 @@ p.texto-secundario{
     font-size: 24px;
     font-weight: 300;
     line-height: 35px;
+}
+
+form.formulario{
+    height: 638px;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1.titulo-formulario{
+    font-size: 32PX;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    margin: 0px 0 60px 0;
+}
+
+input.input-padrao{
+    width: 508px;
+    height: 72px;
+    border: none;
+    border-radius: 10px;
+    margin: 30px 0;
+    font-size: 24px;
+    font-family: 700;
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0, 0, 0.3);;
+    padding: 0 0 0 30px;
+}
+
+input.submit{
+    width: 286px;
+    height: 74px;
+    background: #C07212;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    margin: 40px 0 0 0;
 }
