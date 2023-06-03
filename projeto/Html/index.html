@@ -28,6 +28,7 @@
             <p class="projetos"> <b class="number">2,000,000</b> <br>
                 m² em projetos construídos</p>
         </section>  
+        
         <section class="conteudo-secundario">
             <div class="texto-conteudo">
             <h1 class="titulo-secundario">Arquitetos com História e Experiência.</h1>
@@ -35,17 +36,21 @@
                 Com mais de 800 projetos e 2.000.000 de m² construídos, 
                 tendo como principal proposta transformar em realidade os sonhos de seus clientes, criando projetos</p>
             </div>
-            <img src="../Assets/Imagens/sala.svg" alt="Sala Erro">    
+            <img id="sala1" class="sala-1" onclick="clicarNaImagem()" src="../Assets/Imagens/sala.svg" alt="Sala Erro">    
+            <img id="sala2" class="sala-2" onclick="clicarNaImagem2()" src="../Assets/Imagens/sala2.svg" alt="Sala Erro">
+            <img id="sala3" class="sala-3" onclick="clicarNaImagem3()" src="../Assets/Imagens/sala3.svg" alt="Sala Erro">
         </section>      
     </main>
     <footer>
-        <form class="formulario" action="">
+        <form action="https://api.sheetmonkey.io/form/ky5Q5jmfqAL5PUivmXhFew" method="post" class="formulario" action="">
             <h1 class="titulo-formulario">Conheça mais sobre nossos serviços:</h1>
             <input type="text" name="Name" class="input-padrao" required placeholder="Nome">
-            <input type="email" id="email" name="Email" class="input-padrao" required placeholder="E-mail">
+            <input type="email" name="Email" class="input-padrao" required placeholder="E-mail">
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
             <input type="submit" value="Fale Conosco" class="submit">
-
+            
         </form>
     </footer>
+    <script src="../Assets/JavaScript/index.js"></script>
 </body>
 </html>
