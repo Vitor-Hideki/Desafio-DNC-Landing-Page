@@ -73,22 +73,29 @@ p.texto-secundario{
     line-height: 35px;
 }
 
-input.submit:hover{
-    transform: scale(1.2);
+img.salas{
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+img.salas:hover{
     transition: 0.5s;
-    cursor: pointer;
+    animation: go-back 1s;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.415);
 }
 
-img.sala-2{
+@keyframes go-back {
+    0%{
+        transform: translateY(20px);
+    }
+
+    100%{
+        transform: translatey(0);
+    }
+}
+
+img#sala2,img#sala3{
     display: none;
-}
-
-img.sala-3{
-    display: none;
-}
-
-img#sala1,img#sala2,img#sala3{
-    cursor: pointer;
 }
 
 form.formulario{
@@ -132,5 +139,12 @@ input.submit{
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
     margin: 80px 0 0 0;
+    transition: 0.5s;
+}
+
+input.submit:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.415); ;
 }
 
