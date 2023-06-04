@@ -12,8 +12,7 @@
 ## Visão geral
 
 ### Captura de tela
-
-![](./assets/imagens/DesafioBase.png)
+![DesafioBase](https://github.com/Vitor-Hideki/Desafio-DNC-Landing-Page/assets/116654443/8358f8ec-7e73-4ada-b366-e9eb6da1d5c4)
 
 ### Links
 
